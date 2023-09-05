@@ -14,8 +14,8 @@ function breakingRecords(scores) {
       min = scores[i];
       counterMin++;
     }
-
-    if (max > scores[i]) {
+    
+    if (min >= scores[i]) {
       max = scores[i];
       counterMax++;
     }
